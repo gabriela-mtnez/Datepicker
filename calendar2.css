@@ -1,0 +1,27 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 5px;
+    border-style: double;
+}
+
+th,
+td {
+    height: 12px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px
+}
+
+thead:first-child {
+    font-size: 14px;
+    background-color: #CD0074;
+    color: white;
+}
+
+td:last-child {
+    background-color: #E3CEF6
+}
+
+dd:link {
+    background-color: yellow
+}
